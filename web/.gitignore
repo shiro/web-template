@@ -1,0 +1,11 @@
+node_modules/
+.output/
+.vinxi/
+app.config.timestamp*
+*.bundled_*.mjs
+
+# playwright e2e tests
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/

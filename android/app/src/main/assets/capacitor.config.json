@@ -1,0 +1,25 @@
+{
+	"appId": "com.foo.bar",
+	"appName": "myapp",
+	"webDir": "../android/build_android",
+	"loggingBehavior": "production",
+	"android": {
+		"path": "../android",
+		"allowMixedContent": true
+	},
+	"plugins": {
+		"CapacitorCookies": {
+			"enabled": true
+		},
+		"SplashScreen": {
+			"androidSplashResourceName": "splash_screen"
+		},
+		"update": {
+			"enabled": true
+		}
+	},
+	"server": {
+		"androidScheme": "http",
+		"cleartext": true
+	}
+}
